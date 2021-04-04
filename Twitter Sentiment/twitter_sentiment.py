@@ -11,10 +11,10 @@ import pickle
 
 from tweepy import OAuthHandler
 
-consumer_key='2OhsuxRHdhL4DyVqYFz9dpX2I'
-consumer_sec='j4lukJteYZxYtJjPNJuUC9tAPj8P5uoblrVUINZOwOg5s7Fa5P'
-access_tok='1169941496688070656-Tl5eypq5TCNph0BfhqgjPRTAVzkERC'
-access_sec='e4fo5bB5HFGjNsFOqjqZzRt6CM7ZYIB7TD8b63KwzEC2U'
+consumer_key=''
+consumer_sec=''
+access_tok=''
+access_sec=''
 
 auth = OAuthHandler(consumer_key, consumer_sec)
 auth.set_access_token(access_tok, access_sec)
